@@ -1,0 +1,2493 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x93033f0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x1157bee0" />
+  <item nodeId="node-0x93033f0">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+AiW
+An Interactive Fiction by Alofa Carpenter
+Release 1 / Serial number 150902 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Basement
+You woke up in a dimly lit room... It looks like a basement. How did I get here?
+
+You can see a curtain here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">NO</temporary>
+    <children>
+      <child nodeId="node-0x937db80" />
+      <child nodeId="node-0x937d1e0" />
+      <child nodeId="node-0x937d170" />
+      <child nodeId="node-0x937c990" />
+      <child nodeId="node-0x937c300" />
+      <child nodeId="node-0x937b490" />
+      <child nodeId="node-0x93034e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93034e0">
+    <command xml:space="preserve">enter room</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x9303530" />
+    </children>
+  </item>
+  <item nodeId="node-0x9303530">
+    <command xml:space="preserve">enter curtain</command>
+    <result xml:space="preserve">(first opening the curtain)
+
+Closet
+There are photos all over the walls... Is that me?
+
+A small wooden chest... Looks pretty old! I wonder what&apos;s inside?
+
+You can also see trap door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x9303580" />
+    </children>
+  </item>
+  <item nodeId="node-0x9303580">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening trap door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x93035f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93035f0">
+    <command xml:space="preserve">o chest</command>
+    <result xml:space="preserve">Sorry, that can&apos;t be corrected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x9303660" />
+    </children>
+  </item>
+  <item nodeId="node-0x9303660">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open Chest, revealing Skeleton key and Flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x93036d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93036d0">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x937b310" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b310">
+    <command xml:space="preserve">take skeleton key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x937b360" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b360">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x937b3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b3b0">
+    <command xml:space="preserve">unlock trap door with skeleton key</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x937b420" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b420">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening trap door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+  </item>
+  <item nodeId="node-0x937b490">
+    <command xml:space="preserve">enter curtain</command>
+    <result xml:space="preserve">(first opening the curtain)
+Looks like I can go through this curtain and into another room!
+
+Closet
+There are photos all over the walls... Is that me?
+
+A small wooden chest... Looks pretty old! I wonder what&apos;s inside?
+
+You can also see trap door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c140" />
+      <child nodeId="node-0x937b550" />
+      <child nodeId="node-0x937b5c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b5c0">
+    <command xml:space="preserve">open chest </command>
+    <result xml:space="preserve">You open Wooden chest, revealing Skeleton key and Flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x9303760" />
+    </children>
+  </item>
+  <item nodeId="node-0x9303760">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">A skeleton key (which opens all doors), that&apos;s shaped like a skeleton... How fitting.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x937b610" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b610">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x937b680" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b680">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x937b6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b6f0">
+    <command xml:space="preserve">go through door</command>
+    <result xml:space="preserve">(first opening trap door)
+
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x937b760" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b760">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">You switch on the flashlight, it&apos;s not too bright but it&apos;s better than nothing!
+
+Tunnel
+I can barely see anything... Smells pretty musty in here.
+
+You can see iron gate here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x937b7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b7d0">
+    <command xml:space="preserve">unlock gate with key</command>
+    <result xml:space="preserve">You unlock iron gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x937b840" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b840">
+    <command xml:space="preserve">enter gate</command>
+    <result xml:space="preserve">(first opening iron gate)
+
+Boiler room
+You can see Ladder here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="83">YES</temporary>
+    <children>
+      <child nodeId="node-0x937b500" />
+    </children>
+  </item>
+  <item nodeId="node-0x937b500">
+    <command xml:space="preserve">go through ladder</command>
+    <result xml:space="preserve">(first opening Ladder)
+What the heck... I&apos;m back in the basement?!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="82">YES</temporary>
+  </item>
+  <item nodeId="node-0x937b550">
+    <command xml:space="preserve">enter trap door</command>
+    <result xml:space="preserve">(first opening trap door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x937ba30" />
+    </children>
+  </item>
+  <item nodeId="node-0x937ba30">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open Chest, revealing Skeleton key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="41">YES</temporary>
+    <children>
+      <child nodeId="node-0x937baa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937baa0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="40">YES</temporary>
+  </item>
+  <item nodeId="node-0x937c140">
+    <command xml:space="preserve">open ches</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c1b0">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open Chest, revealing Skeleton key and Flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c220" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c220">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">A skeleton key (which opens all doors), that&apos;s shaped like a skeleton... How fitting.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c290" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c290">
+    <command xml:space="preserve">unlock trap door with skeleton key</command>
+    <result xml:space="preserve">That doesn&apos;t seem to fit the lock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+  </item>
+  <item nodeId="node-0x937c300">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">(first opening the curtain)
+
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c3e0" />
+      <child nodeId="node-0x937c370" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c370">
+    <command xml:space="preserve">d</command>
+    <result xml:space="preserve">(first opening trap door)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="36">YES</temporary>
+  </item>
+  <item nodeId="node-0x937c3e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c450" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c450">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c4c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c4c0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c530" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c530">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c5a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c5a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c610" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c610">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c680" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c680">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c6f0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c760" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c760">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c7d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c7d0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c840" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c840">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937bf00" />
+    </children>
+  </item>
+  <item nodeId="node-0x937bf00">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937bf70" />
+    </children>
+  </item>
+  <item nodeId="node-0x937bf70">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937bfe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937bfe0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c050" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c050">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c0c0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c8b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c8b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="35">YES</temporary>
+    <children>
+      <child nodeId="node-0x937c920" />
+    </children>
+  </item>
+  <item nodeId="node-0x937c920">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="34">YES</temporary>
+  </item>
+  <item nodeId="node-0x937c990">
+    <command xml:space="preserve">o curtain</command>
+    <result xml:space="preserve">Sorry, that can&apos;t be corrected.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937ca00" />
+    </children>
+  </item>
+  <item nodeId="node-0x937ca00">
+    <command xml:space="preserve">open cutrain</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937ca70" />
+    </children>
+  </item>
+  <item nodeId="node-0x937ca70">
+    <command xml:space="preserve">open cutain</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937cae0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937cae0">
+    <command xml:space="preserve">open curtain</command>
+    <result xml:space="preserve">Looks like I can go through this curtain and into another room!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937cb50" />
+    </children>
+  </item>
+  <item nodeId="node-0x937cb50">
+    <command xml:space="preserve">go through curtain</command>
+    <result xml:space="preserve">
+Closet
+There are photos all over the walls... Is that me?
+
+A small wooden chest... Looks pretty old! I wonder what&apos;s inside?
+
+You can also see trap door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937cbc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937cbc0">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open Wooden chest, revealing Skeleton key and Flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937cc30" />
+    </children>
+  </item>
+  <item nodeId="node-0x937cc30">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">A skeleton key (which opens all doors), that&apos;s shaped like a skeleton... How fitting.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937cca0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937cca0">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937cd10" />
+    </children>
+  </item>
+  <item nodeId="node-0x937cd10">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock trap door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937cd80" />
+    </children>
+  </item>
+  <item nodeId="node-0x937cd80">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937cdf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937cdf0">
+    <command xml:space="preserve">enter trap door</command>
+    <result xml:space="preserve">(first opening trap door)
+
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937ce60" />
+    </children>
+  </item>
+  <item nodeId="node-0x937ce60">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">You switch on the flashlight, it&apos;s not too bright but it&apos;s better than nothing!
+
+Tunnel
+I can barely see anything... Smells pretty musty in here.
+
+You can see iron gate here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937ced0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937ced0">
+    <command xml:space="preserve">enter gate</command>
+    <result xml:space="preserve">(first opening iron gate)
+It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937cf40" />
+    </children>
+  </item>
+  <item nodeId="node-0x937cf40">
+    <command xml:space="preserve">unlock gate</command>
+    <result xml:space="preserve">What do you want to unlock iron gate with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937cfb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937cfb0">
+    <command xml:space="preserve">unlock gate with key</command>
+    <result xml:space="preserve">You unlock iron gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d020" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d020">
+    <command xml:space="preserve">enter gate</command>
+    <result xml:space="preserve">(first opening iron gate)
+
+Boiler room
+You can see Ladder here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d090" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d090">
+    <command xml:space="preserve">go up ladder</command>
+    <result xml:space="preserve">I only understood you as far as wanting to go up.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="73">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d100" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d100">
+    <command xml:space="preserve">enter ladder</command>
+    <result xml:space="preserve">(first opening Ladder)
+
+Basement
+You woke up in a dimly lit room... It looks like a basement. How did I get here?
+
+You can see a curtain here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="72">YES</temporary>
+  </item>
+  <item nodeId="node-0x937d170">
+    <command xml:space="preserve">x doctor</command>
+    <result xml:space="preserve">The doctor hit you over the head with a baseball bat! He stole your key and flashlight!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="85">YES</temporary>
+  </item>
+  <item nodeId="node-0x937d1e0">
+    <command xml:space="preserve">x curtain</command>
+    <result xml:space="preserve">You see nothing special about the curtain.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d250" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d250">
+    <command xml:space="preserve">open curtain</command>
+    <result xml:space="preserve">Looks like I can go through this curtain and into another room!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d2c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d2c0">
+    <command xml:space="preserve">go through curtain</command>
+    <result xml:space="preserve">
+Closet
+There are photos all over the walls... Is that me?
+
+A small wooden chest... Looks pretty old! I wonder what&apos;s inside?
+
+You can also see trap door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d330" />
+      <child nodeId="node-0xb8a1be0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8a1be0">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open Wooden chest, revealing Skeleton key and Flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x93f9db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93f9db0">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7c2be0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7c2be0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">A skeleton key (which opens all doors), that&apos;s shaped like a skeleton... How fitting.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8ddac0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8ddac0">
+    <command xml:space="preserve">unlock door</command>
+    <result xml:space="preserve">What do you want to unlock trap door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb712d70" />
+    </children>
+  </item>
+  <item nodeId="node-0xb712d70">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x10466220" />
+    </children>
+  </item>
+  <item nodeId="node-0x10466220">
+    <command xml:space="preserve">go through door</command>
+    <result xml:space="preserve">(first opening trap door)
+
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fe7660" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fe7660">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">You switch on the flashlight, it&apos;s not too bright but it&apos;s better than nothing!
+
+Tunnel
+I can barely see anything... Smells pretty musty in here.
+
+You can see iron gate here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7ee7a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7ee7a0">
+    <command xml:space="preserve">unlock gate with key</command>
+    <result xml:space="preserve">You unlock iron gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb75d9b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb75d9b0">
+    <command xml:space="preserve">go through gate</command>
+    <result xml:space="preserve">(first opening iron gate)
+
+Operating room
+This is not sanitary... There&apos;s blood all over the walls.
+
+You can see a doctor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8825b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8825b0">
+    <command xml:space="preserve">x doctor</command>
+    <result xml:space="preserve">He&apos;s got a strange look in his eyes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x93937c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x93937c0">
+    <command xml:space="preserve">talk to doctor</command>
+    <result xml:space="preserve">Try asking about what&apos;s going on instead.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x10479de0" />
+    </children>
+  </item>
+  <item nodeId="node-0x10479de0">
+    <command xml:space="preserve">what&apos;s going on</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8e7ca0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8e7ca0">
+    <command xml:space="preserve">ask doctor what&apos;s going on</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x10417b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x10417b70">
+    <command xml:space="preserve">tell doctor what&apos;s going on</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x1046f250" />
+    </children>
+  </item>
+  <item nodeId="node-0x1046f250">
+    <command xml:space="preserve">doctor</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x9f652b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9f652b0">
+    <command xml:space="preserve">x doctor</command>
+    <result xml:space="preserve">He&apos;s got a strange look in his eyes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x9f82370" />
+    </children>
+  </item>
+  <item nodeId="node-0x9f82370">
+    <command xml:space="preserve">talk to doctor</command>
+    <result xml:space="preserve">Try asking about what&apos;s going on instead.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x9f71370" />
+    </children>
+  </item>
+  <item nodeId="node-0x9f71370">
+    <command xml:space="preserve">what&apos;s going on</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8cf530" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8cf530">
+    <command xml:space="preserve">ask what&apos;s going on</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x10428930" />
+    </children>
+  </item>
+  <item nodeId="node-0x10428930">
+    <command xml:space="preserve">ask doctor</command>
+    <result xml:space="preserve">What do you want to ask the doctor for?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fc1fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fc1fc0">
+    <command xml:space="preserve">what&apos;s going on</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x9393340" />
+    </children>
+  </item>
+  <item nodeId="node-0x9393340">
+    <command xml:space="preserve">ask doctor about what&apos;s going on</command>
+    <result xml:space="preserve">The doctor attacked and blindfolded me!
+
+Jail cell
+Feeling groggy waking up in a new, strange place. Plus, I can&apos;t see anything beyond the rusted bars of this cell - it&apos;s pitch black out there.
+
+You can see Cell door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb781ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb781ac0">
+    <command xml:space="preserve">unlock cell door with ke</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fa48e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fa48e0">
+    <command xml:space="preserve">unlock cell door with key</command>
+    <result xml:space="preserve">That doesn&apos;t seem to be something you can unlock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7e1cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7e1cd0">
+    <command xml:space="preserve">open cell door</command>
+    <result xml:space="preserve">The door to the jail cell was unlocked... That was almost too easy...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb76b150" />
+    </children>
+  </item>
+  <item nodeId="node-0xb76b150">
+    <command xml:space="preserve">go through cell door</command>
+    <result xml:space="preserve">
+Vortex
+I got sucked into the vortex, everything is technicolor... Everything is spinning...
+
+You can see Wooden table (on which is Cookie) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x9faf5c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9faf5c0">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">The only thing that isn&apos;t spinning right now.
+
+On Wooden table is Cookie.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7ced10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7ced10">
+    <command xml:space="preserve">x cookie</command>
+    <result xml:space="preserve">For Alice:
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb894070" />
+    </children>
+  </item>
+  <item nodeId="node-0xb894070">
+    <command xml:space="preserve">take cookie</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fc90e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fc90e0">
+    <command xml:space="preserve">eat cookie</command>
+    <result xml:space="preserve">Everything went dark again.
+
+Hospital room
+Groggy again... As I slowly open my eyes I see my mother standing over me. Am I in a hospital bed?
+
+You can see Mother here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fdd0c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fdd0c0">
+    <command xml:space="preserve">talk to mother</command>
+    <result xml:space="preserve">Try asking about what&apos;s going on instead.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb881740" />
+    </children>
+  </item>
+  <item nodeId="node-0xb881740">
+    <command xml:space="preserve">ask mother about what&apos;s going on</command>
+    <result xml:space="preserve">&quot;Thank God, thank God... Honey do you remember me? Alice? I&apos;m your mother, Alice... You&apos;ve been in a coma for years...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="61">YES</temporary>
+    <children>
+      <child nodeId="node-0xb732cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb732cd0">
+    <command xml:space="preserve">ask mother about what</command>
+    <result xml:space="preserve">&quot;Thank God, thank God... Honey do you remember me? Alice? I&apos;m your mother, Alice... You&apos;ve been in a coma for years...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="60">YES</temporary>
+  </item>
+  <item nodeId="node-0x937d330">
+    <command xml:space="preserve">x wooden chest</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d3a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d3a0">
+    <command xml:space="preserve">x trap door</command>
+    <result xml:space="preserve">You see nothing special about trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d410" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d410">
+    <command xml:space="preserve">x photos</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d480" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d480">
+    <command xml:space="preserve">open wooden chest</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d4f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d4f0">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open Chest, revealing Skeleton key and Flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d560" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d560">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">A skeleton key (which opens all doors), that&apos;s shaped like a skeleton... How fitting.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d5d0">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d640" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d640">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d6b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d6b0">
+    <command xml:space="preserve">open door with key</command>
+    <result xml:space="preserve">You unlock trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d720" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d720">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d790" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d790">
+    <command xml:space="preserve">go through door</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d800" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d800">
+    <command xml:space="preserve">use flashlight</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d870" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d870">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">You switch on the flashlight, it&apos;s not too bright but it&apos;s better than nothing!
+
+Tunnel
+I can barely see anything... Smells pretty must in here.
+
+You can see iron gate here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d8e0">
+    <command xml:space="preserve">x gate</command>
+    <result xml:space="preserve">You see nothing special about iron gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d950" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d950">
+    <command xml:space="preserve">open gate</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937d9c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937d9c0">
+    <command xml:space="preserve">open gate with key</command>
+    <result xml:space="preserve">You unlock iron gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937da30" />
+    </children>
+  </item>
+  <item nodeId="node-0x937da30">
+    <command xml:space="preserve">go through gate</command>
+    <result xml:space="preserve">(first opening iron gate)
+
+Boiler room
+You can see Ladder here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937daa0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937daa0">
+    <command xml:space="preserve">x ladder</command>
+    <result xml:space="preserve">You see nothing special about Ladder.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+    <children>
+      <child nodeId="node-0x937db10" />
+    </children>
+  </item>
+  <item nodeId="node-0x937db10">
+    <command xml:space="preserve">u</command>
+    <result xml:space="preserve">(first opening Ladder)
+
+Basement
+You woke up in a dimly lit room... It looks like a basement. How did I get here?
+
+You can see a curtain here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+  </item>
+  <item nodeId="node-0x937db80">
+    <command xml:space="preserve">open curtain</command>
+    <result xml:space="preserve">Looks like I can go through this curtain and into another room!
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x937dbf0" />
+      <child nodeId="node-0x937dcd0" />
+      <child nodeId="node-0x9ff43a0" />
+      <child nodeId="node-0x937dc60" />
+    </children>
+  </item>
+  <item nodeId="node-0x937dc60">
+    <command xml:space="preserve">enter room</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="52">YES</temporary>
+  </item>
+  <item nodeId="node-0x9ff43a0">
+    <command xml:space="preserve">go through curtain</command>
+    <result xml:space="preserve">
+Closet
+There are photos all over the walls... Is that me?
+
+A small wooden chest... Looks pretty old! I wonder what&apos;s inside?
+
+You can also see trap door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x11810930" />
+    </children>
+  </item>
+  <item nodeId="node-0x11810930">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open Wooden chest, revealing Skeleton key and Flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8ef730" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8ef730">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">A skeleton key (which opens all doors), that&apos;s shaped like a skeleton... How fitting.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x118a8730" />
+    </children>
+  </item>
+  <item nodeId="node-0x118a8730">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x11573ff0" />
+      <child nodeId="node-0xb838cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb838cd0">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x9f67390" />
+    </children>
+  </item>
+  <item nodeId="node-0x9f67390">
+    <command xml:space="preserve">go through door</command>
+    <result xml:space="preserve">(first opening trap door)
+
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fedf90" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fedf90">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">You switch on the flashlight, it&apos;s not too bright but it&apos;s better than nothing!
+
+Tunnel
+I can barely see anything... Smells pretty musty in here.
+
+You can see iron gate here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fb91a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fb91a0">
+    <command xml:space="preserve">open fate</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x9f2c530" />
+    </children>
+  </item>
+  <item nodeId="node-0x9f2c530">
+    <command xml:space="preserve">unlock gate</command>
+    <result xml:space="preserve">What do you want to unlock iron gate with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x9f72910" />
+    </children>
+  </item>
+  <item nodeId="node-0x9f72910">
+    <command xml:space="preserve">unlock gate with key</command>
+    <result xml:space="preserve">You unlock iron gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x1189c290" />
+    </children>
+  </item>
+  <item nodeId="node-0x1189c290">
+    <command xml:space="preserve">go through gate</command>
+    <result xml:space="preserve">(first opening iron gate)
+
+Operating room
+This is not sanitary... There&apos;s blood all over the walls.
+
+You can see a doctor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fe2d30" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fe2d30">
+    <command xml:space="preserve">x doctor</command>
+    <result xml:space="preserve">He&apos;s got a strange look in his eyes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8b0890" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8b0890">
+    <command xml:space="preserve">ask doctor about what</command>
+    <result xml:space="preserve">The doctor attacked and blindfolded me!
+
+Jail cell
+Feeling groggy waking up in a new, strange place. Plus, I can&apos;t see anything beyond the rusted bars of this cell - it&apos;s pitch black out there.
+
+You can see Cell door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0xb81ee80" />
+    </children>
+  </item>
+  <item nodeId="node-0xb81ee80">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">The door to the jail cell was unlocked... That was almost too easy...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x9f697c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9f697c0">
+    <command xml:space="preserve">go through door</command>
+    <result xml:space="preserve">
+Vortex
+I got sucked into the vortex, everything is technicolor... Everything is spinning...
+
+You can see Wooden table (on which is Cookie) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x11898b80" />
+    </children>
+  </item>
+  <item nodeId="node-0x11898b80">
+    <command xml:space="preserve">take cookie</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8e3890" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8e3890">
+    <command xml:space="preserve">eat cookie</command>
+    <result xml:space="preserve">Everything went dark again.
+
+Hospital room
+Groggy again... As I slowly open my eyes I see my mother standing over me. Am I in a hospital bed?
+
+You can see Mother here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="80">YES</temporary>
+    <children>
+      <child nodeId="node-0x9393ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9393ab0">
+    <command xml:space="preserve">ask mother about what</command>
+    <result xml:space="preserve">&quot;Thank God, thank God... Honey do you remember me? Alice? I&apos;m your mother, Alice... You&apos;ve been in a coma for years...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="79">YES</temporary>
+  </item>
+  <item nodeId="node-0x11573ff0">
+    <command xml:space="preserve">open trap door</command>
+    <result xml:space="preserve">It seems to be locked.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fec9b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fec9b0">
+    <command xml:space="preserve">open trap door with key</command>
+    <result xml:space="preserve">You unlock trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fc74c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fc74c0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">You open trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fd54d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fd54d0">
+    <command xml:space="preserve">x door</command>
+    <result xml:space="preserve">You see nothing special about trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x9faadf0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9faadf0">
+    <command xml:space="preserve">go through trap door</command>
+    <result xml:space="preserve">
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x1153fee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1153fee0">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">You switch on the flashlight, it&apos;s not too bright but it&apos;s better than nothing!
+
+Tunnel
+I can barely see anything... Smells pretty musty in here.
+
+You can see iron gate here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xb858130" />
+    </children>
+  </item>
+  <item nodeId="node-0xb858130">
+    <command xml:space="preserve">open iron gate with key</command>
+    <result xml:space="preserve">You unlock iron gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fb22a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fb22a0">
+    <command xml:space="preserve">open gate</command>
+    <result xml:space="preserve">You open iron gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x1187dc80" />
+    </children>
+  </item>
+  <item nodeId="node-0x1187dc80">
+    <command xml:space="preserve">go through gate</command>
+    <result xml:space="preserve">
+Operating room
+This is not sanitary... There&apos;s blood all over the walls.
+
+You can see a doctor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xb885080" />
+    </children>
+  </item>
+  <item nodeId="node-0xb885080">
+    <command xml:space="preserve">x doctor</command>
+    <result xml:space="preserve">He&apos;s got a strange look in his eyes.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x11580a20" />
+    </children>
+  </item>
+  <item nodeId="node-0x11580a20">
+    <command xml:space="preserve">ask doctor about blood</command>
+    <result xml:space="preserve">The doctor attacked and blindfolded me!
+
+Jail cell
+Feeling groggy waking up in a new, strange place. Plus, I can&apos;t see anything beyond the rusted bars of this cell - it&apos;s pitch black out there.
+
+You can see Cell door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fceac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fceac0">
+    <command xml:space="preserve">open bars with key</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x9f19ec0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9f19ec0">
+    <command xml:space="preserve">open door with key</command>
+    <result xml:space="preserve">That doesn&apos;t seem to be something you can unlock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xb89c1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb89c1b0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Flashlight (providing light)
+  Skeleton key
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xb895310" />
+    </children>
+  </item>
+  <item nodeId="node-0xb895310">
+    <command xml:space="preserve">open cell door with key</command>
+    <result xml:space="preserve">That doesn&apos;t seem to be something you can unlock.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8b35e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8b35e0">
+    <command xml:space="preserve">open flashlight</command>
+    <result xml:space="preserve">It isn&apos;t something you can open.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x11510b60" />
+    </children>
+  </item>
+  <item nodeId="node-0x11510b60">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">That&apos;s already on.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8ca4d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8ca4d0">
+    <command xml:space="preserve">open cell door</command>
+    <result xml:space="preserve">The door to the jail cell was unlocked... That was almost too easy...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x11502bc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x11502bc0">
+    <command xml:space="preserve">go through door</command>
+    <result xml:space="preserve">
+Vortex
+I got sucked into the vortex, everything is technicolor... Everything is spinning...
+
+You can see Wooden table (on which is Cookie) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x11811120" />
+    </children>
+  </item>
+  <item nodeId="node-0x11811120">
+    <command xml:space="preserve">take cookie</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x1180bc20" />
+    </children>
+  </item>
+  <item nodeId="node-0x1180bc20">
+    <command xml:space="preserve">eat cookie</command>
+    <result xml:space="preserve">Everything went dark again.
+
+Hospital room
+Groggy again... As I slowly open my eyes I see my mother standing over me. Am I in a hospital bed?
+
+You can see Mother here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="107">YES</temporary>
+    <children>
+      <child nodeId="node-0x1157bee0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1157bee0">
+    <command xml:space="preserve">ask mother about cookie</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="106">YES</temporary>
+  </item>
+  <item nodeId="node-0x937dcd0">
+    <command xml:space="preserve">enter curtain</command>
+    <result xml:space="preserve">
+Closet
+There are photos all over the walls... Is that me?
+
+A small wooden chest... Looks pretty old! I wonder what&apos;s inside?
+
+You can also see trap door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x937dd40" />
+    </children>
+  </item>
+  <item nodeId="node-0x937dd40">
+    <command xml:space="preserve">open chest</command>
+    <result xml:space="preserve">You open Wooden chest, revealing Skeleton key and Flashlight.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x937ddb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937ddb0">
+    <command xml:space="preserve">take key</command>
+    <result xml:space="preserve">A skeleton key (which opens all doors), that&apos;s shaped like a skeleton... How fitting.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x937de20" />
+    </children>
+  </item>
+  <item nodeId="node-0x937de20">
+    <command xml:space="preserve">take flashlight</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x937de90" />
+      <child nodeId="node-0x9fa7e10" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fa7e10">
+    <command xml:space="preserve">unlock door with key</command>
+    <result xml:space="preserve">You unlock trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xb89b5c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb89b5c0">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening trap door)
+
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x9f4d270" />
+    </children>
+  </item>
+  <item nodeId="node-0x9f4d270">
+    <command xml:space="preserve">turn on flashligh</command>
+    <result xml:space="preserve">You switch on the flashlight, it&apos;s not too bright but it&apos;s better than nothing!
+
+Tunnel
+I can barely see anything... Smells pretty musty in here.
+
+You can see iron gate here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xb877f10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb877f10">
+    <command xml:space="preserve">unlock gate with key</command>
+    <result xml:space="preserve">You unlock iron gate.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xb87fd10" />
+    </children>
+  </item>
+  <item nodeId="node-0xb87fd10">
+    <command xml:space="preserve">enter gate</command>
+    <result xml:space="preserve">(first opening iron gate)
+
+Operating room
+This is not sanitary... There&apos;s blood all over the walls.
+
+You can see a doctor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fb2a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fb2a50">
+    <command xml:space="preserve">talk to doctor</command>
+    <result xml:space="preserve">Try asking about something instead.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x9f71b70" />
+    </children>
+  </item>
+  <item nodeId="node-0x9f71b70">
+    <command xml:space="preserve">ask doctor</command>
+    <result xml:space="preserve">What do you want to ask the doctor for?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xb882190" />
+    </children>
+  </item>
+  <item nodeId="node-0xb882190">
+    <command xml:space="preserve">ask doctor what&apos;s happening</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xb89a170" />
+    </children>
+  </item>
+  <item nodeId="node-0xb89a170">
+    <command xml:space="preserve">ask doctor about room</command>
+    <result xml:space="preserve">The doctor attacked and blindfolded me!
+
+Jail cell
+Feeling groggy waking up in a new, strange place. Plus, I can&apos;t see anything beyond the rusted bars of this cell - it&apos;s pitch black out there.
+
+You can see Cell door here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8781c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8781c0">
+    <command xml:space="preserve">open cell dor</command>
+    <result xml:space="preserve">I only understood you as far as wanting to open Cell door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x1e9510" />
+    </children>
+  </item>
+  <item nodeId="node-0x1e9510">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">The door to the jail cell was unlocked... That was almost too easy...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fc4140" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fc4140">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">
+Vortex
+I got sucked into the vortex, everything is technicolor... Everything is spinning...
+
+You can see Wooden table (on which is Cookie) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xb83e130" />
+    </children>
+  </item>
+  <item nodeId="node-0xb83e130">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">The only thing that isn&apos;t spinning right now.
+
+On Wooden table is Cookie.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x9f90e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x9f90e00">
+    <command xml:space="preserve">eat cookie</command>
+    <result xml:space="preserve">Everything went dark again.
+
+Hospital room
+Groggy again... As I slowly open my eyes I see my mother standing over me. Am I in a hospital bed?
+
+You can see Mother here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8547c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb8547c0">
+    <command xml:space="preserve">talk to mother</command>
+    <result xml:space="preserve">Try asking about something instead.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fad890" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fad890">
+    <command xml:space="preserve">ask mother about room</command>
+    <result xml:space="preserve">&quot;Thank God, thank God... Honey do you remember me? Alice? I&apos;m your mother, Alice... You&apos;ve been in a coma for years...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xb83db00" />
+    </children>
+  </item>
+  <item nodeId="node-0xb83db00">
+    <command xml:space="preserve">ask mother where you are</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0x9fb64a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9fb64a0">
+    <command xml:space="preserve">ask mother about where you are</command>
+    <result xml:space="preserve">&quot;Thank God, thank God... Honey do you remember me? Alice? I&apos;m your mother, Alice... You&apos;ve been in a coma for years...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="25">YES</temporary>
+    <children>
+      <child nodeId="node-0xb86f200" />
+    </children>
+  </item>
+  <item nodeId="node-0xb86f200">
+    <command xml:space="preserve">ask mother about what happened</command>
+    <result xml:space="preserve">&quot;Thank God, thank God... Honey do you remember me? Alice? I&apos;m your mother, Alice... You&apos;ve been in a coma for years...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="24">YES</temporary>
+  </item>
+  <item nodeId="node-0x937de90">
+    <command xml:space="preserve">unlock trap door</command>
+    <result xml:space="preserve">What do you want to unlock trap door with?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x937df00" />
+    </children>
+  </item>
+  <item nodeId="node-0x937df00">
+    <command xml:space="preserve">unlock trap door with key</command>
+    <result xml:space="preserve">You unlock trap door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x937df70" />
+    </children>
+  </item>
+  <item nodeId="node-0x937df70">
+    <command xml:space="preserve">enter door</command>
+    <result xml:space="preserve">(first opening trap door)
+
+Darkness
+It is pitch dark, and you can&apos;t see a thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0x937dfe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x937dfe0">
+    <command xml:space="preserve">turn on flashlight</command>
+    <result xml:space="preserve">You switch on the flashlight, it&apos;s not too bright but it&apos;s better than nothing!
+
+Tunnel
+I can&apos;t see a thing at the moment.
+
+You can see iron gate here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+  </item>
+  <item nodeId="node-0x937dbf0">
+    <command xml:space="preserve">enter closet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="54">YES</temporary>
+  </item>
+</Skein>
